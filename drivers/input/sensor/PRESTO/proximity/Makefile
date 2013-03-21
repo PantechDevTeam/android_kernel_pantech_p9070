@@ -18,5 +18,5 @@
 #
 obj-$(CONFIG_PANTECH_PRESTO_SENSORS_APDS9190) += apds9900.o proximity.o 
 #ifeq ($(CONFIG_MACH_MSM8X55_J_MASAI_E),y) 
-obj-$(CONFIG_PANTECH_PRESTO_SENSORS_APDS9190) += apds9900.o ambientlight.o
+obj-$(CONFIG_PANTECH_PRESTO_SENSORS_APDS9190) += ambientlight.o
 #endif

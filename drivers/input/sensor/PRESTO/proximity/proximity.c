@@ -33,7 +33,7 @@
 /* -------------------------------------------------------------------- */
 /* debug option */
 /* -------------------------------------------------------------------- */
-#define SENSOR_SKY_PS_DBG_ENABLE
+//#define SENSOR_SKY_PS_DBG_ENABLE
 #ifdef SENSOR_SKY_PS_DBG_ENABLE
 #define dbg(fmt, args...)   printk("[PS] " fmt, ##args)
 #else
